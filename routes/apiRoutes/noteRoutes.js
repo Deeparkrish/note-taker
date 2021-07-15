@@ -63,7 +63,7 @@ router.delete("/notes/:id",(req,res)=>{
   let notesId = req.params.id ;
   let newId =0;
   // Delete  by id , check if  the id  in the file 
-  const found = data.filter((note) => note.id !== noteId)[0];
+  const found = data.filter((note) => note.id !== notesId)[0];
   if(found){
   //  filter the data to contain all notes except the one whose id matches 
   data = data.filter(thisNote=> {
