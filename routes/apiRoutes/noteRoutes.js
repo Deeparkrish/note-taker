@@ -47,7 +47,6 @@ router.post('/notes',(req,res)=>{
 });
 
 router.get("/notes/:id", (req, res) => {
-  // const result = findNoteById(req.params.id, data);
   let noteId = Number(req.params.id);
 
   if (noteId < data.length) {
@@ -57,10 +56,36 @@ router.get("/notes/:id", (req, res) => {
   }
 });
 
-// Delete  by id , find the id in the file and remove the corresponding data. 
-// filter the rest .
-//  // const result = data.filter((note) => note.id !== noteId)[0];
+//Deleting a note by id 
+router.delete("/notes/:id",(req,res)=>{
 
-// write to file again 
+  console.log("Deleting note");
+  let notesId = req.params.id ;
+  let newId =0;
+  // Delete  by id , check if  the id  in the file 
+  const found = data.filter((note) => note.id !== noteId)[0];
+  if(found){
+  //  filter the data to contain all notes except the one whose id matches 
+  data = data.filter(thisNote=> {
+    return thisNote.id != notesId;
+ });
+ // reassign the id to the new data 
+  for(thisNote of data){
+        thisNote.id = newId;
+        newId++;
+  }
+  //write in the file 
+  fs.writeFileSync("./db/db.json", 
+                    JSON.stringify(data),function (err){if (err)throw(err)});
+  return res.json(data);
+  console.log("Successfully deleted!!")
+}
+else {
+  console.log("Id not found in the file!")
+  res.status(404).send('id not found');
+
+}
+});
+
 
 module.exports =router;
