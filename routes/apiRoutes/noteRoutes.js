@@ -49,7 +49,7 @@ router.post('/notes',(req,res)=>{
     writeToFile(data);
 
     //json response the note added.
-    return res.json(data).send("Added Successfully!");
+    return res.json(data);
   }
 
   });
