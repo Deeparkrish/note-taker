@@ -34,10 +34,7 @@ router.get('/notes',(req,res)=>{
 //function  to set up a route on our server that accepts data to be stored server-side.
 router.post('/notes',(req,res)=>{
     // req.body is where our incoming content will be
-    // set id based on what the next index of the array will be
-
     req.body.id = data.length.toString(); //assign a unique id 
-
     // add the new note created  
     data.push(req.body) ; 
     // making sure correct data is written into 
@@ -47,7 +44,6 @@ router.post('/notes',(req,res)=>{
   } else {  
     // write it in  to the  file 
     writeToFile(data);
-
     //json response the note added.
     return res.json(data);
   }
