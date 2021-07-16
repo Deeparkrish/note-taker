@@ -4,8 +4,14 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deeparkrish/note-taker.git"
+  },
+  "homepage": "https://github.com/Deeparkrish/note-taker#readme",
   "author": "",
   "license": "ISC",
   "dependencies": {

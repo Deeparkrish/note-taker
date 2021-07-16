@@ -16,6 +16,7 @@ app.use(express.json());
 // to include assets like css for html-to access front end code
 app.use(express.static('public'));
 
+
 // Api and html routes path usage
 app.use('/api',apiRoutes);
 app.use('/', htmlRoutes);
