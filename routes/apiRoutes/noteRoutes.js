@@ -79,6 +79,7 @@ router.delete("/notes/:id",(req,res)=>{
         newId++;
   }
   writeToFile(data);
+  
   return res.json({
     message : 'Successfully deleted!',
     id :req.params.id,
