@@ -1,10 +1,9 @@
 # note-taker 
-# Team-Profile-Generator   
   <p align="left">
-    <img src="https://img.shields.io/github/repo-size/deeparkrish/Team-Profile-Generator" />
-    <img src="https://img.shields.io/github/languages/top/deeparkrish/Team-Profile-Generator"  />
-    <img src="https://img.shields.io/github/issues/deeparkrish/Team-Profile-Generator" />
-    <img src="https://img.shields.io/github/last-commit/deeparkrish/Team-Profile-Generator" >   
+    <img src="https://img.shields.io/github/repo-size/deeparkrish/note-taker" />
+    <img src="https://img.shields.io/github/languages/top/deeparkrish/note-taker"  />
+    <img src="https://img.shields.io/github/issues/deeparkrish/note-taker" />
+    <img src="https://img.shields.io/github/last-commit/deeparkrish/note-taker" >   
   </p>
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
@@ -22,20 +21,19 @@
   * [Pseudocode](#pseudocode)
   * [MockUp](#mockup)
   * [ProjectDemo](#projectdemo)
-  * [Testing](#testing)
+  * [HerokuLink](#herokulink)
   * [ProjectRepo](#projectrepo)
   * [Contribution](#contribution)
   
   
   ##  Installation
     npm install -g npm 
-    npm i inquirer
-   ###  CSS:
-    <link rel="stylesheet" https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    heroku create <appname>
+  ### Deploying to heroku :
+    git push heroku <branch name>
 
   ##  Usage
-    node app.js
+    heroku open
 
   ## License 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)<br />
@@ -75,21 +73,12 @@
   #### User input/HTML generation
   [![Youtube](https://img.youtube.com/vi/f3hP1mj1puE/0.jpg)](https://www.youtube.com/embed/f3hP1mj1puE)
 
-  ### Email/Github link 
-  ![MyDemo](https://github.com/Deeparkrish/Team-Profile-Generator/blob/main/src/demo/git:emailDemo.gif)
-  ## Testing
-   Run this command to check all tests pass: <br/>
-      npm run test
-          
-  Test cases have been added in "__test__" folder </br>
-  Test Sample: </br>
-  ![MyDemo](https://github.com/Deeparkrish/Team-Profile-Generator/blob/main/src/demo/TDD-demo.gif) 
-  ![MyDemo](https://github.com/Deeparkrish/Team-Profile-Generator/blob/main/src/demo/TDD-demo1.gif)
   
+  ## Heroku Link
+  https://deepa-note-maker.herokuapp.com/
   
-
   ## ProjectRepo 
-  Git hub link: https://github.com/Deeparkrish/Team-Profile-Generator
+  Git hub link: https://github.com/Deeparkrish/note-taker
 
   ## Contribution
   Created with ❤️ by [Deepa Krishnan](https://github.com/DeeparKrish/README-generator)
