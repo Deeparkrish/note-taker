@@ -3,6 +3,7 @@ const fs= require('fs')
 const router = require('express').Router();
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 
+// Validate if the data going to write is string 
 function validateNote(note){
 
   if (!note.title || typeof note.title !== 'string') {
@@ -14,6 +15,7 @@ function validateNote(note){
   return true;
 }
 
+//Writing data to db.json
 function writeToFile (data){
    //write in the file 
    fs.writeFileSync("./db/db.json", 
@@ -23,6 +25,7 @@ function writeToFile (data){
 
 //  return all  saved notes
 router.get('/notes',(req,res)=>{
+  
 
     if(req.query){
         res.json(data); //returned saved notes as json 
