@@ -66,7 +66,7 @@
   
   
   ##  Mockup
-   ![Webpage](https://github.com/Deeparkrish/Team-Profile-Generator/blob/main/src/img/mockup1.png)
+   ![Webpage](https://github.com/Deeparkrish/note-taker/blob/master/src/mockup.png)
 
   
   ##  ProjectDemo
