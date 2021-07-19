@@ -28,7 +28,7 @@
   
   
   ##  Installation
-    npm install -g npm 
+    npm install express
     heroku create <appname>
   ### Deploying to heroku :
     git push heroku <branch name>
