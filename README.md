@@ -90,6 +90,8 @@
       GET http://localhost:3001/api/notes/<id>
       POST http://localhost:3001/api/notes
       DELETE http://localhost:3001/api/notes/<id>
+   ![Webpage](https://github.com/Deeparkrish/note-taker/blob/master/src/mockup2.jpg.png)
+   
   
   ## Heroku Link
   https://deepa-note-maker.herokuapp.com/
