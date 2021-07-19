@@ -22,7 +22,7 @@
   * [MockUp](#mockup)
   * [ProjectDemo](#projectdemo)
   * [Testing](#testing)
-  * [HerokuLink](#herokulink)
+  * [Deployedlink](#deployedlink)
   * [ProjectRepo](#projectrepo)
   * [Contribution](#contribution)
   
