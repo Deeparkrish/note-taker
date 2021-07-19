@@ -22,7 +22,7 @@
   * [MockUp](#mockup)
   * [ProjectDemo](#projectdemo)
   * [Testing](#testing)
-  * [Deployedlink](#deployedlink)
+  * [HerokuLink](#herokulink)
   * [ProjectRepo](#projectrepo)
   * [Contribution](#contribution)
   
@@ -92,7 +92,7 @@
    ![Webpage](https://github.com/Deeparkrish/note-taker/blob/master/src/mockup2.jpg.png)
    
   
-  ## Heroku Link
+  ## HerokuLink
   https://deepa-note-maker.herokuapp.com/
   
   ## ProjectRepo 
